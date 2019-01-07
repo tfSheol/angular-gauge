@@ -1,6 +1,6 @@
 {
-  "name": "angular-gauge",
-  "version": "3.1.1",
+  "name": "angular-gauge-fix",
+  "version": "3.1.2",
   "description": "A tiny angular 5.0+ wrapper for https://github.com/naikus/svg-gauge",
   "scripts": {
     "start": "concurrently --raw \"webpack-dev-server --open\" \"npm run test:watch\"",
@@ -39,22 +39,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mattlewis92/angular-gauge.git"
+    "url": "git+https://github.com/tfSheol/angular-gauge.git"
   },
   "keywords": [
     "angular2",
     "angular",
     "angular4",
     "angular5",
+	"angular6",
+	"angular7",
     "gauge",
     "svg-gauge"
   ],
   "author": "Matt Lewis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mattlewis92/angular-gauge/issues"
+    "url": "https://github.com/tfSheol/angular-gauge/issues"
   },
-  "homepage": "https://github.com/mattlewis92/angular-gauge#readme",
+  "homepage": "https://github.com/tfSheol/angular-gauge#readme",
   "devDependencies": {
     "@angular/common": "^5.2.1",
     "@angular/compiler": "^5.2.1",
@@ -111,7 +113,7 @@
     "zone.js": "^0.8.20"
   },
   "peerDependencies": {
-    "@angular/core": ">=5.0.0 <7.0.0"
+    "@angular/core": ">=5.0.0 <8.0.0"
   },
   "config": {
     "commitizen": {
